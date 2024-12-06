@@ -1,0 +1,52 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+    font-size: 32px;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section__wrapper {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+input,
+button {
+    font-size: 20px;
+    border-radius: 7px;
+}
+
+input {
+    padding: 5px;
+    border: 1px solid blue;
+}
+
+button {
+    padding: 5px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+.error {
+    color: red;
+}
+
+
